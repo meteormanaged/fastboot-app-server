@@ -3,7 +3,7 @@
 const path              = require('path');
 const fork              = require('child_process').fork;
 const expect            = require('chai').expect;
-const FastBootAppServer = require('../lib/fastboot-app-server');
+const FastBootAppServer = require('../dist/cjs/fastboot-app-server');
 const request           = require('request-promise').defaults({ simple: false, resolveWithFullResponse: true });
 
 let server;

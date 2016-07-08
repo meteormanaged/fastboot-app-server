@@ -1,6 +1,6 @@
 'use strict';
 
-const FastBootAppServer = require('../../lib/fastboot-app-server.js');
+const FastBootAppServer = require('../../dist/cjs/fastboot-app-server.js');
 
 let server = new FastBootAppServer({
   downloader: {
